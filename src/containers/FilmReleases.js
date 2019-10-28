@@ -1,6 +1,7 @@
     import React, {Component} from 'react';
     import MoreReleases from '../components/MoreReleases';
     import ReleasesList from '../components/ReleasesList';
+    import '../App.css';
 
     class FilmReleases extends Component {
 
@@ -38,10 +39,14 @@
 
         render() {
             return (
-                <div >
-                    <h1>Upcoming Film Releases for UK</h1>
-                    <ReleasesList films = {this.state.data} ></ReleasesList> 
-                    <MoreReleases />
+                <div> 
+                    <div className="film-releases">
+                        <h1>Upcoming Film Releases for UK</h1>
+                        <ReleasesList films = {this.state.data} ></ReleasesList> 
+                    </div>
+                    <div className="more-releases">
+                        <MoreReleases />
+                    </div>
                 </div>
             )
         }

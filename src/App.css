@@ -20,3 +20,21 @@
 .App-link {
   color: #09d3ac;
 }
+
+.container{
+  display: flex;
+  align-content: center;
+}
+
+.film-releases{
+  text-align: center;
+  background-color: teal;
+  border: solid;
+  width: 70%;
+}
+
+.more-releases{
+  border: solid;
+  text-align: center;
+  margin: 10px;
+}
