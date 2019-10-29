@@ -22,11 +22,12 @@
 }
 
 .container{
-  display: flex;
   align-content: center;
+  text-align: center;
 }
 
 .film-releases{
+  display: inline-block;
   text-align: center;
   background-color: teal;
   border: solid;
@@ -37,4 +38,13 @@
   border: solid;
   text-align: center;
   margin: 10px;
+  padding: 10px;;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

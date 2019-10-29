@@ -39,7 +39,7 @@
 
         render() {
             return (
-                <div> 
+                <div className="container"> 
                     <div className="film-releases">
                         <h1>Upcoming Film Releases for UK</h1>
                         <ReleasesList films = {this.state.data} ></ReleasesList> 
